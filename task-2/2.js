@@ -1,0 +1,16 @@
+let div = document.getElementById('myDiv');
+let list = document.getElementById('myList');
+let h  = document.querySelector('h1');
+let invisibleText = document.querySelector('span');
+const firstItem = div.children[0];
+const secondItem = div.children[1];
+const thirdItem = div.children[2];
+const fourthItem = div.children[3]
+list.style.display = 'flex';
+list.style.listStyleType = 'none';
+h.style.backgroundColor = 'green';
+firstItem.style.fontWeight = 'bold';
+secondItem.style.color = 'red';
+thirdItem.style.textDecoration = 'underline';
+fourthItem.style.fontStyle = 'italic';
+invisibleText.textContent = ' ';

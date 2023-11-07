@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.clock {
+    font-family:'digital';
+    color: rgb(16, 219, 16);
+    font-size: 100px;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: "digital";
+    src:
+      local('digital'),
+      url('/digital-7.ttf') format("opentype") tech(color-COLRv1),
+      url("/digital-7\ \(mono\ italic\).ttf") format("opentype"),
+      url("trickster-outline.woff") format("woff");
+  }
